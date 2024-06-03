@@ -6,3 +6,4 @@ The penalty term is a combination of the l1-norm (absolute value) and the l2-nor
 
 The efficiency of the ML model is about 99.99999 % (approx) which is R square
 The MSE is 21.093
+(The proof has been attached here as a picture file of "efficiency of the model.png")
