@@ -2,9 +2,8 @@ import pandas as pd
 from sklearn.linear_model import ElasticNet
 from sklearn.metrics import mean_squared_error,r2_score
 from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import RobustScaler
+from sklearn.preprocessing import RobustScaler,OneHotEncoder
 from sklearn.pipeline import Pipeline
-from category_encoders import OneHotEncoder
 
 
 data = pd.read_csv("gold_price.csv").dropna()
